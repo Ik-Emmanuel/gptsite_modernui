@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center px-[2rem] py-[2rem] text-white font-[500] text-[18px] leading-[25px] capitalize my-[0] cursor-pointer">
-      <div className="flex flex-1 justify-start items-center">
+      <div className="flex flex-1 justify-between items-center">
         <div className="mr-[2rem]">
           <Image
             src="/assets/logo.svg"
@@ -42,7 +42,7 @@ const Navbar = () => {
             className="cursor-pointer"
           />
         </div>
-        <div className="hidden lg:flex gap-6">
+        <div className="hidden lg:flex gap-10">
           {/* menu */}
           {menu.map((item, index) => (
             <Link href={item.link} key={item.title} className="">
@@ -50,16 +50,16 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-      </div>
 
-      <div className=" hidden lg:flex justify-end items-center gap-4">
-        <p>Sign in</p>
-        <button
-          className="py-2 px-4 text-white bg-[#FF4820] rounded-[5px] leading-[25px] font-[500] text-[18px] cursor-pointer border-none outline-none "
-          type="button"
-        >
-          Sign up
-        </button>
+        <div className=" hidden lg:flex justify-end items-center gap-4">
+          <p>Sign in</p>
+          <button
+            className="py-2 px-4 text-white bg-[#FF4820] rounded-[5px] leading-[25px] font-[500] text-[18px] cursor-pointer border-none outline-none "
+            type="button"
+          >
+            Sign up
+          </button>
+        </div>
       </div>
 
       {/* mobile menu */}
