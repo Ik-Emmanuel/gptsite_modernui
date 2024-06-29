@@ -3,6 +3,7 @@ import Features from "@/components/Features";
 import Gpt3 from "@/components/Gpt3";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
+import Possibilities from "@/components/Possibilities";
 import Image from "next/image";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         {/* features */}
         <Features />
         {/* possibilities */}
+        <Possibilities />
         {/* cta */}
         {/* blog */}
         {/* footer */}

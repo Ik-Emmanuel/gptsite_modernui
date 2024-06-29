@@ -30,12 +30,12 @@ const Gpt3 = () => {
         />
         <Feature
           title="Knowledge base"
-          text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
+          text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments"
           featureclass="lg:flex-col"
         />
         <Feature
           title="Education"
-          text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
+          text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments"
           featureclass="lg:flex-col"
         />
       </div>
