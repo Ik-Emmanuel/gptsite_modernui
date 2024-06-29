@@ -17,7 +17,7 @@ const Header = () => {
           simply sign-up using the link below.
         </p>
 
-        <div className="w-full mx-[0rem] mr-0 my-[1rem] flex ">
+        <div className="w-full mx-0 mr-0 my-[2rem] flex ">
           <input
             className="flex flex-[2] min-h-[50px] font-[400] text-[12px] lg:text-[20px] leading-[28px] text-white bg-[#052D45] rounded-[5px] px-2 lg:px-5 py-2 lg:py-4 border-[2px] border-[#031B34] outline-none rounded-tl-[10px] rounded-bl-[10px]"
             type="email"

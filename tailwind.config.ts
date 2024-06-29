@@ -14,8 +14,16 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        'Manrope': ['"Manrope"', 'cursive'],
-      }
+        'Manrope': "var(--font-family)",
+      },
+      colors: {
+        customText: "var(--color-text)",
+        colorBg:     "var(--color-bg)",
+        colorFooter: "var(--color-footer)",
+        colorBlog:"var(--color-blog)",
+        colorText:  "var(--color-text)",
+        colorSubText:"var(--color-subtext)",
+      },
     },
   },
   plugins: [],

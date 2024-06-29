@@ -1,3 +1,6 @@
+import Brand from "@/components/Brand";
+import Features from "@/components/Features";
+import Gpt3 from "@/components/Gpt3";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
@@ -11,8 +14,11 @@ export default function Home() {
       </div>
       <div className="">
         {/* brand§ */}
+        <Brand />
         {/* whatsgpt3 */}
+        <Gpt3 />
         {/* features */}
+        <Features />
         {/* possibilities */}
         {/* cta */}
         {/* blog */}
