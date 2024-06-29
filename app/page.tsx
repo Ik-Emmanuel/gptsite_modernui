@@ -1,4 +1,5 @@
 import Brand from "@/components/Brand";
+import CTA from "@/components/CTA";
 import Features from "@/components/Features";
 import Gpt3 from "@/components/Gpt3";
 import Header from "@/components/Header";
@@ -22,7 +23,8 @@ export default function Home() {
         <Features />
         {/* possibilities */}
         <Possibilities />
-        {/* cta */}
+        {/* call to action */}
+        <CTA />
         {/* blog */}
         {/* footer */}
       </div>

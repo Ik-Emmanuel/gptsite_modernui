@@ -12,6 +12,10 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          'gradientBar': "linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%)",
+      },
+      background:{
+        'gradientBar': "linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%)"
       },
       fontFamily: {
         'Manrope': "var(--font-family)",
