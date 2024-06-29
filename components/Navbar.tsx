@@ -45,7 +45,11 @@ const Navbar = () => {
         <div className="hidden lg:flex gap-10">
           {/* menu */}
           {menu.map((item, index) => (
-            <Link href={item.link} key={item.title} className="">
+            <Link
+              href={item.link}
+              key={item.title}
+              className="hover:text-[#FF4820]"
+            >
               {item.title}
             </Link>
           ))}
@@ -82,7 +86,11 @@ const Navbar = () => {
           <div className="flex justify-end items-end flex-col gap-10 text-end bg-[#031B34] p-[2rem] absolute right-[0px] top-[40px] mt-[1rem]  min-w-[210px] rounded-[5px] shadow-lg scale-up-center">
             <div className="flex flex-col w-full gap-6">
               {menu.map((item, index) => (
-                <Link href={item.link} key={item.title} className="">
+                <Link
+                  href={item.link}
+                  key={item.title}
+                  className="hover:text-[#FF4820]"
+                >
                   {item.title}
                 </Link>
               ))}

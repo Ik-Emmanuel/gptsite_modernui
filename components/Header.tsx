@@ -7,13 +7,13 @@ const Header = () => {
       id="home"
     >
       <div className="flex flex-[1] min-[1300px]:flex-[0.65]  justify-center items-start flex-col mr-[5rem]">
-        <h1 className="font-[800] text-[32px] lg:text-[62px] leading-[35px] lg:leading-[75px] tracking-[-0.04em] gradient__text">
-          Let&apos;s Build Something amazing with GPT-3 OpenAI
+        <h1 className="font-[800] text-[32px] lg:text-[60px] leading-[35px] lg:leading-[75px] tracking-[-0.04em] gradient__text">
+          Build Something amazing with GPT-3 OpenAI
         </h1>
 
         <p className=" text-[#81AFDD] font-[400] text-[12px] lg:text-[20px] leading-[28px mt-[1.5rem]">
-          This is an open-source project created by The Open AI. It can be used
-          to generate text and images. and it is the best GPT-3 OpenAI.To begin,
+          This is an open-source project created by Open AI. It can be used to
+          generate text and images. and it is the best GPT-3 OpenAI.To begin,
           simply sign-up using the link below.
         </p>
 
