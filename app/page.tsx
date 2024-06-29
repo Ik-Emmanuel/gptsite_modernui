@@ -1,3 +1,4 @@
+import Blog from "@/components/Blog";
 import Brand from "@/components/Brand";
 import CTA from "@/components/CTA";
 import Features from "@/components/Features";
@@ -26,6 +27,7 @@ export default function Home() {
         {/* call to action */}
         <CTA />
         {/* blog */}
+        <Blog />
         {/* footer */}
       </div>
     </div>
